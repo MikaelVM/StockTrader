@@ -3,4 +3,10 @@ project(StockTrader)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(StockTrader library.cpp)
+add_library(StockTrader src/library_test.cpp)
+
+include_directories(include)
+
+enable_testing()
+
+add_subdirectory(src)
