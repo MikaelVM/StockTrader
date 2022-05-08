@@ -1,0 +1,6 @@
+#ifndef STOCKTRADER_LIBRARY_H
+#define STOCKTRADER_LIBRARY_H
+
+void hello();
+
+#endif //STOCKTRADER_LIBRARY_H
